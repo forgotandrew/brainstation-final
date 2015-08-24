@@ -1,14 +1,23 @@
 /*NAVBAR SHOW/HIDE ON SCROLL*/
 
 .headroom {
+    -webkit-transition: -webkit-transform 200ms linear;
+    transition: -webkit-transform 200ms linear;
+    -moz-transition: -moz-transform 200ms linear;
     transition: transform 200ms linear;
 }
 
 .headroom--pinned {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -moz-transform: translateY(0%);
     transform: translateY(0%);
 }
 
 .headroom--unpinned {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -moz-transform: translateY(100%);
     transform: translateY(-100%);
 }
 
@@ -16,10 +25,10 @@
 /*NAVBAR*/
 
 nav {
-	border-radius: 0px;
+    border-radius: 0px;
 }
 
 .jumbo1 {
-	background-image: url(img/jumbotron.jpg);
-	height: 100vh;
+    background-image: url(img/jumbotron.jpg);
+    height: 100vh;
 }
