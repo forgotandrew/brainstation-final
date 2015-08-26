@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/flat-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!-- HTML5 SHIM FOR INTERNET EXPLORER COMPATIBILITY -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -18,30 +19,50 @@
 </head>
 
 <body>
-
-<p> hi </p>
-<div class="page-wrapper">
-    <header id="header" class="headroom">
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <img alt="Digital Literacy" src="img/logo.jpg">
-                    </a>
-                </div>
+    <header id="headroom">
+        <div id="cssmenu">
+            <ul>
                 <li><a href="#">Home</a></li>
-            </div>
-        </nav>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Donate</a></li>
+            </ul>
+        </div>
     </header>
-</div>
+    <div class="jumbotron landing-cover" style="margin: 0 auto; display-style: table">
+        <div class="container">
+            <h1 style="padding-top: 10em; color: white">DIGITAL LITERACY</h1>
+        </div>
+    </div>
+    <div class="wrapper style1 special vh40" id="about">
+        <div class="inner">
+            <h1>WHAT IS DIGITAL LITERACY?</h1>
+            <p>The knowledge and understanding of the use of technology.</p>
+        </div>
+    </div>
 
-
+    <div class="wrapper style2 special vh40">
+        <div class="inner">
+            
+        </div>
+    </div>
     <!-- IMPORT SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/headroom.min.js"></script>
     <script src="js/vendor/video.js"></script>
     <script src="js/flat-ui.min.js"></script>
+    <script src="js/midnight.jquery.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script>
+        // grab an element
+        var myElement = document.querySelector("header");
+        // construct an instance of Headroom, passing the element
+        var headroom = new Headroom(myElement);
+        // initialise
+        headroom.init();
+
+    </script>
 </body>
 
 </html>
