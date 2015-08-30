@@ -41,6 +41,8 @@
 #about {
    padding: 40px; 
    height: 380px;
+   height: 32em;
+   text-align: center;
 }
 
 
@@ -1017,4 +1019,8 @@ h1 {
 
 .intro {
     text-align: center;
+}
+
+.flipdiv p {
+    color: white;
 }
