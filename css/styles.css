@@ -27,10 +27,14 @@
 }
 
 .stat {
-    padding: 10px 100px 100px 20px;
+    padding: 10px 100px 100px 0px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+}
+
+.h1 {
+    text-align: center;
 }
 /*NAVBAR*/
 
