@@ -27,14 +27,17 @@
 }
 
 .stat {
-    padding: 10px 100px 100px 0px;
+    padding-top: 10px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    opacity: 100%
 }
 
-.h1 {
-    text-align: center;
+.call_to_action {
+    font-size: 30px;
+    padding-top: 20px;
+    opacity: 100%;
 }
 /*NAVBAR*/
 
@@ -994,7 +997,7 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	background-image: url(../img/use.jpg);
-	padding: 10px 20px;
+	padding: 40px 20px;
   
 }
 
@@ -1003,7 +1006,7 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	background-image: url(../img/understand.jpg);
-	padding: 10px 20px;
+	padding: 40px 20px;
 }
 
 #flipCreate {
@@ -1011,6 +1014,7 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	background-image: url(../img/create.jpg);
+<<<<<<< HEAD
 	padding: 10px 20px;
 
 #about {
@@ -1023,4 +1027,7 @@ h1 {
 
 .flipdiv p {
     color: white;
+=======
+	padding: 40px 20px;
+>>>>>>> origin/master
 }
