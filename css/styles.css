@@ -960,6 +960,7 @@ h1 {
     border: solid 1px #c3c3c3;
     padding: 50px;
     display: none;
+    font-color: black;
 }
 
 #flipUse {
