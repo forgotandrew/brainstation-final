@@ -948,7 +948,7 @@ h1 {
 }
 
 .vh40 {
-    height: 40vh;
+
     text-align: center;
     color: white;
 }
@@ -995,4 +995,8 @@ h1 {
 	font-weight: bold;
 	background-image: url("img/create.jpg");
 	padding: 30px;
+}
+
+#about {
+    text-align: center;
 }
