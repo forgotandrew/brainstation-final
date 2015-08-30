@@ -38,6 +38,10 @@
     font-size: 30px;
     padding-top: 20px;
 }
+
+h1 {
+    color: white;
+}
 /*NAVBAR*/
 
 #about {
