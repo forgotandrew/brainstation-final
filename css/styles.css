@@ -27,14 +27,15 @@
 }
 
 .stat {
-    padding: 10px 100px 100px 0px;
+    padding-top: 10px;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    opacity: 100%
 }
 
-.h1 {
-    text-align: center;
+.call_to_action {
+    font-size: 30px;
 }
 /*NAVBAR*/
 
