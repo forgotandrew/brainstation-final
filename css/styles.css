@@ -991,7 +991,7 @@ h1 {
     text-align: center;
 	font-size: 40px;
 	font-weight: bold;
-	background-image: url("img/use.jpg");
+	background-image: url(../img/use.jpg);
 	padding: 10px 20px;
   
 }
@@ -1000,7 +1000,7 @@ h1 {
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
-	background-image: url("img/understand.jpg");
+	background-image: url(../img/understand.jpg);
 	padding: 10px 20px;
 }
 
@@ -1008,9 +1008,13 @@ h1 {
     text-align: center;
 	font-size: 40px;
 	font-weight: bold;
-	background-image: url("img/create.jpg");
+	background-image: url(../img/create.jpg);
 	padding: 10px 20px;
 
 #about {
+    text-align: center;
+}
+
+.intro {
     text-align: center;
 }
