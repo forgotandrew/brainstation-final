@@ -953,3 +953,35 @@ h1 {
     align-items: center;
     margin-bottom: 0px;
 }
+
+#panelUse, #panelUnderstand, #panelCreate {
+  	text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    padding: 50px;
+    display: none;
+}
+
+#flipUse {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-image: url("img/use.jpg");
+	padding: 30px;
+}
+
+#flipUnderstand {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-image: url("img/understand.jpg");
+	padding: 30px;
+}
+
+#flipCreate {
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	background-image: url("img/create.jpg");
+	padding: 30px;
+}
