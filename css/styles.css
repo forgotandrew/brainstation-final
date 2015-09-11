@@ -370,6 +370,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         -o-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+
     #cssmenu #menu-button.menu-opened:before {
         top: 23px;
         background: #ffffff;
@@ -983,7 +984,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-#panelUse, #panelUnderstand, #panelCreate {
+/*#panelUse, #panelUnderstand, #panelCreate {
   	text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
@@ -1016,6 +1017,7 @@ h1 {
 	background-image: url(../img/create.jpg);
 <<<<<<< HEAD
 	padding: 10px 20px;
+}*/
 
 #about {
     text-align: center;
@@ -1031,3 +1033,114 @@ h1 {
 	padding: 40px 20px;
 >>>>>>> origin/master
 }
+
+
+        .banner {
+            text-align: center;
+            padding: 0;
+        }
+
+        .banner li {
+            border: 5px solid white;
+            display: inline-block;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .banner img {
+            display: block;
+            height: auto;
+            max-width: 500px;
+        }
+
+            
+        .banner figure {
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            margin: 0;
+        }
+
+        .banner figcaption {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            display: table;
+            height: 400px;
+            width: 100%
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 100;
+        }
+
+        .banner figcaption p {
+            display: table-cell;
+            font-size: 1.5em;
+            position: relative;
+            top: -40px;
+            width: 100%;
+            height: 400px;
+            vertical-align: middle;
+            /*padding: 20px;*/
+        }
+/*<!here>*/
+        .banner li:hover figcaption {
+            opacity: 1;
+        }
+
+        .banner img {
+            display: block;
+            height: auto;
+            -webkit-transition: all 300ms;
+            -moz-transition: all 300ms;
+            transition: all 300ms;
+            max-width: 100%;
+            padding: 20px;
+        }
+
+        .banner li:hover img {
+            -webkit-transform: scale(1.4);
+            -moz-transform: scale(1.4);
+            transform: scale(1.4);
+        }
+
+        .banner figcaption p {
+            display: table-cell;
+            font-size: 20px;
+            position: relative;
+            top: -40px;
+            width: 100%;
+            -webkit-transition: all 300ms ease-out;
+            -moz-transition: all 300ms ease-out;
+            transition: all 300ms ease-out;
+            vertical-align: middle;
+        }
+
+        .banner li:hover figcaption p {
+            -moz-transform: translateY(40px);
+            -webkit-transform: translateY(40px);
+            transform: translateY(40px);
+        }
+
+
+        .banner figcaption {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            display: table;
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            -webkit-transition: all 300ms;
+            -moz-transition: all 300ms;
+            transition: all 300ms;
+            -webkit-transition-delay: 100ms;
+            -moz-transition-delay: 100ms;
+            transition-delay: 100ms;
+            z-index: 100;
+        }
