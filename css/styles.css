@@ -1015,7 +1015,6 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	background-image: url(../img/create.jpg);
-<<<<<<< HEAD
 	padding: 10px 20px;
 }*/
 
@@ -1029,8 +1028,8 @@ h1 {
 
 .flipdiv p {
     color: white;
-=======
 	padding: 40px 20px;
+<<<<<<< HEAD
 >>>>>>> origin/master
 }
 
@@ -1144,3 +1143,6 @@ h1 {
             transition-delay: 100ms;
             z-index: 100;
         }
+=======
+}
+>>>>>>> origin/master
